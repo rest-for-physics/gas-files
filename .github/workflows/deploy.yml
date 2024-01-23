@@ -1,11 +1,10 @@
-# generate doxygen
 
-name: Docs
+name: Deployment
 on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
