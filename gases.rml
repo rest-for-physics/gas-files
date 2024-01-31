@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<gases>
+  <globals>
+  </globals>
+  
+  // -----------------------------------
+  // -------------- XENON --------------
+  // -----------------------------------
+
+  <TRestDetectorGas name="Xenon 10-10E3Vcm" title="Xenon">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="1" />
+  </TRestDetectorGas>
+
+  // -----------------------------------
+  // -------------- HELIUM -------------
+  // -----------------------------------
+
+  <TRestDetectorGas name="Helium 10-10E3Vcm" title="Helium">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="42.3" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="he" fraction="1" />
+  </TRestDetectorGas>
+
+  // -----------------------------------
+  // -------------- CF4 ----------------
+  // -----------------------------------
+
+  <TRestDetectorGas name="CF4 10-10E3Vcm" title="CF4">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="CF4" fraction="1" />
+  </TRestDetectorGas>
+
+  // ---------------------------------------
+  // -------------- XENON+TMA --------------
+  // ---------------------------------------
+
+  // ----- 0.1% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-TMA 0.1Pct 10-10E3Vcm" title="Xenon-TMA Mixture (0.1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.999" />
+    <gasComponent name="n(ch3)3" fraction="0.001" />
+  </TRestDetectorGas>
+
+  // ----- 0.5% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-TMA 0.5Pct 10-10E3Vcm" title="Xenon-TMA Mixture (0.5Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.995" />
+    <gasComponent name="n(ch3)3" fraction="0.005" />
+  </TRestDetectorGas>
+
+  // ----- 1.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-TMA 1Pct 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.01" />
+  </TRestDetectorGas>
+
+  // ----- 2.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-TMA 2Pct 10-10E3Vcm" title="Xenon-TMA Mixture (2Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.98" />
+    <gasComponent name="n(ch3)3" fraction="0.02" />
+  </TRestDetectorGas>
+
+  // ----- 2.2% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-TMA 2.2Pct 10-10E3Vcm" title="Xenon-TMA Mixture (2.2Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.978" />
+    <gasComponent name="n(ch3)3" fraction="0.022" />
+  </TRestDetectorGas>
+
+  // ----- 3.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-TMA 3Pct 10-10E3Vcm" title="Xenon-TMA Mixture (3Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.97" />
+    <gasComponent name="n(ch3)3" fraction="0.03" />
+  </TRestDetectorGas>
+
+  // ----- 5.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-TMA 5Pct 10-10E3Vcm" title="Xenon-TMA Mixture (5Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.95" />
+    <gasComponent name="n(ch3)3" fraction="0.05" />
+  </TRestDetectorGas>
+
+  // ---------------------------------------------
+  // -------------- XENON+ISOBUTANE --------------
+  // ---------------------------------------------
+
+  // ----- 0.5% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-Isobutane 0.5Pct 20-10E3Vcm" title="Xenon-Isobutane Mixture (0.5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9175" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="20" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.995" />
+    <gasComponent name="iC4H10" fraction="0.005" />
+  </TRestDetectorGas>
+
+  // ----- 1.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-Isobutane 1Pct 20-10E3Vcm" title="Xenon-Isobutane Mixture (1Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.913" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="20" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+  </TRestDetectorGas>
+
+  // ----- 2.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-Isobutane 2Pct 10-10E3Vcm" title="Xenon-Isobutane Mixture (2Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.926" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.98" />
+    <gasComponent name="iC4H10" fraction="0.02" />
+  </TRestDetectorGas>
+
+  // ----- 3.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-Isobutane 3Pct 10-10E3Vcm" title="Xenon-Isobutane Mixture (3Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.939" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.97" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+  </TRestDetectorGas>
+
+  // ----- 5.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-Isobutane 5Pct 10-10E3Vcm" title="Xenon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.965" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.95" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+  </TRestDetectorGas>
+
+  // ---------------------------------------
+  // -------------- XENON+CF4 --------------
+  // ---------------------------------------
+
+  // ----- 0.5% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-CF4 0.5Pct 20-10E3Vcm" title="Xenon-CF4 Mixture (0.5Pct CF4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.0605" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="20" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.995" />
+    <gasComponent name="CF4" fraction="0.005" />
+  </TRestDetectorGas>
+
+  // ----- 1.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-CF4 1Pct 10-10E3Vcm" title="Xenon-CF4 Mixture (1Pct CF4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.221" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="CF4" fraction="0.01" />
+  </TRestDetectorGas>
+
+  // ----- 2.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-CF4 2Pct 20-10E3Vcm" title="Xenon-CF4 Mixture (2Pct CF4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.542" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="20" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.98" />
+    <gasComponent name="CF4" fraction="0.02" />
+  </TRestDetectorGas>
+
+  // ----- 3.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-CF4 3Pct 20-10E3Vcm" title="Xenon-CF4 Mixture (3Pct CF4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.863" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="20" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.97" />
+    <gasComponent name="CF4" fraction="0.03" />
+  </TRestDetectorGas>
+
+  // ----- 5.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Xenon-CF4 5Pct 20-10E3Vcm" title="Xenon-CF4 Mixture (5Pct CF4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="23.505" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="20" Emax="1000." nodes="20" />
+    <gasComponent name="xe" fraction="0.95" />
+    <gasComponent name="CF4" fraction="0.05" />
+  </TRestDetectorGas>
+
+  // ---------------------------------------------
+  // -------------- ARGON+METHANE --------------
+  // ---------------------------------------------
+
+  // ----- 0.5% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Methane 1Pct 0.1-10E3Vcm" title="Argon-Isobutane Mixture (1Pct Methane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="1" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000." nodes="200" />
+    <gasComponent name="ar" fraction="0.99" />
+    <gasComponent name="CH4" fraction="0.01" />
+  </TRestDetectorGas>
+
+  // ---------------------------------------------
+  // -------------- ARGON+ISOBUTANE --------------
+  // ---------------------------------------------
+
+  // ----- 0.5% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Isobutane 0.5Pct 20-10E3Vcm" title="Argon-Isobutane Mixture (0.5ct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.2845" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="20" Emax="1000." nodes="20" />
+    <gasComponent name="ar" fraction="0.995" />
+    <gasComponent name="iC4H10" fraction="0.005" />
+  </TRestDetectorGas>
+
+  // ----- 1.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Isobutane 1Pct 10-10E3Vcm" title="Argon-Isobutane Mixture (1Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.269" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ar" fraction="0.99" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+  </TRestDetectorGas>
+
+  // ----- 2.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Isobutane 2Pct 10-10E3Vcm" title="Argon-Isobutane Mixture (2Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.238" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ar" fraction="0.98" />
+    <gasComponent name="iC4H10" fraction="0.02" />
+  </TRestDetectorGas>
+
+  // ----- 3.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Isobutane 3Pct 10-10E3Vcm" title="Argon-Isobutane Mixture (3Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.207" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ar" fraction="0.97" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+  </TRestDetectorGas>
+
+  // ----- 5.0% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Isobutane 5Pct 10-10E3Vcm" title="Argon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.145" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ar" fraction="0.95" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+  </TRestDetectorGas>
+
+  // ---------------------------------------------
+  // -------------- ARGON+METHANE --------------
+  // ---------------------------------------------
+
+  // ----- 5.0% Iso 2.0% Oxygen ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Isobutane-Oxygen 5Pct-2Pct 10-10E3Vcm" title="Argon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.145" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ar" fraction="0.93" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+    <gasComponent name="O2" fraction="0.02" />
+  </TRestDetectorGas>
+
+  // ----- 5.0% Iso 2.0% Oxygen ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Isobutane-Oxygen 5Pct-2Pct High field" title="Argon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.145" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="1000" Emax="10000." nodes="10" />
+    <gasComponent name="ar" fraction="0.93" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+    <gasComponent name="O2" fraction="0.02" />
+  </TRestDetectorGas>
+
+
+  // ---------------------------------------------
+  // -------------- ARGON+ISOBUTANE+OXYGEN ---------------
+  // ---------------------------------------------
+  / ----- 5.0% Iso 2.0% Oxygen ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Argon-Isobutane-Oxygen 5Pct-2Pct 10-10E3Vcm" title="Argon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.145" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ar" fraction="0.93" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+    <gasComponent name="O2" fraction="0.02" />
+
+  </TRestDetectorGas>
+
+  // ----- 5.0% Iso 2.0% Oxygen --------------------------------------------------------------------------------------------- <TRestDetectorGas name="Argon-Isobutane-Oxygen 5Pct-2Pct High field" title="Argon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.145" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="1000" Emax="10000." nodes="20" />
+    <gasComponent name="ar" fraction="0.93" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+    <gasComponent name="O2" fraction="0.02" />
+  </TRestDetectorGas>
+
+
+
+  // ---------------------------------------------
+  // -------------- NEON+ISOBUTANE ---------------
+  // ---------------------------------------------
+
+  // ----- 0.5% --------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Neon-Isobutane 0.5Pct 10-10E3Vcm" title="Neon-Isobutane Mixture (0.5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.3485" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ne" fraction="0.995" />
+    <gasComponent name="iC4H10" fraction="0.005" />
+  </TRestDetectorGas>
+
+  // ----- 1% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Neon-Isobutane 1Pct 10-10E3Vcm" title="Neon-Isobutane Mixture (1Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.3485" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ne" fraction="0.99" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+  </TRestDetectorGas>
+
+  // ----- 2% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Neon-Isobutane 2Pct 10-10E3Vcm" title="Neon-Isobutane Mixture (2Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.3485" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ne" fraction="0.98" />
+    <gasComponent name="iC4H10" fraction="0.02" />
+  </TRestDetectorGas>
+
+  // ----- 3% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Neon-Isobutane 3Pct 10-10E3Vcm" title="Neon-Isobutane Mixture (3Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.3485" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ne" fraction="0.97" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+  </TRestDetectorGas>
+
+  // ----- 5% ---------------------------------------------------------------------------------------------
+  <TRestDetectorGas name="Neon-Isobutane 5Pct 10-10E3Vcm" title="Neon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.3485" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000." nodes="20" />
+    <gasComponent name="ne" fraction="0.95" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+  </TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.2ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099998" />
+    <gasComponent name="O2" fraction="2e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.3ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099997" />
+    <gasComponent name="O2" fraction="3e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.4ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099996" />
+    <gasComponent name="O2" fraction="4e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.5ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099995" />
+    <gasComponent name="O2" fraction="5e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.6ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099994" />
+    <gasComponent name="O2" fraction="6e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.7ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099993" />
+    <gasComponent name="O2" fraction="7e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.1ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099999" />
+    <gasComponent name="O2" fraction="1e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.8ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099992" />
+    <gasComponent name="O2" fraction="8e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 0.9ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099991" />
+    <gasComponent name="O2" fraction="9e-07" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 1.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009999" />
+    <gasComponent name="O2" fraction="1e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 2.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009998" />
+    <gasComponent name="O2" fraction="2e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 3.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009997" />
+    <gasComponent name="O2" fraction="3e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 4.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009996" />
+    <gasComponent name="O2" fraction="4e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 5.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009995" />
+    <gasComponent name="O2" fraction="5e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 6.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009994" />
+    <gasComponent name="O2" fraction="6e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 7.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009993" />
+    <gasComponent name="O2" fraction="7e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 8.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009992" />
+    <gasComponent name="O2" fraction="8e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 9.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.009991" />
+    <gasComponent name="O2" fraction="9e-06" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 10.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00999" />
+    <gasComponent name="O2" fraction="1e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 20.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00998" />
+    <gasComponent name="O2" fraction="2e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 30.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00997" />
+    <gasComponent name="O2" fraction="3e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 40.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00996" />
+    <gasComponent name="O2" fraction="4e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 50.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00995" />
+    <gasComponent name="O2" fraction="5e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 60.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00994" />
+    <gasComponent name="O2" fraction="6e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 70.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00993" />
+    <gasComponent name="O2" fraction="7e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 80.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00992" />
+    <gasComponent name="O2" fraction="8e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 90.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.00991" />
+    <gasComponent name="O2" fraction="9e-05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.5 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1Pct O2 100.0ppm 10-10E3Vcm" title="Xenon-TMA Mixture (1Pct TMA)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="n(ch3)3" fraction="0.0099" />
+    <gasComponent name="O2" fraction="0.0001" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.7 ---------------------------
+<TRestDetectorGas name="Argon-Isobutane 5Pct 10-10E3Vcm ACC" title="Argon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="26.145" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="ar" fraction="0.95" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : cristina ---- REST version : 2.2.11 ---------------------------
+<TRestDetectorGas name="Argon-Isobutane 2.3Pct 10-10E3Vcm" title="Argon-Isobutane Mixture (2.3Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.238" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="ar" fraction="0.977" />
+    <gasComponent name="iC4H10" fraction="0.023" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1.5Pct 10-10E3Vcm" title="Xenon-TMA Mixture (1.5Pct TMA)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.985" />
+    <gasComponent name="n(ch3)3" fraction="0.015" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Neon 20Pct Iso-2.2Pct 10-10E3Vcm" title="Xenon Mixture (20Pct Neon - 2.2Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.778" />
+    <gasComponent name="ne" fraction="0.2" />
+    <gasComponent name="ic4h10" fraction="0.022" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Neon 50Pct-Iso 2,4Pct 10-10E3Vcm" title="Xenon-Neon Mixture (50Pct Neon )">
+    <parameter name="pressure" value="0.5" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.476" />
+    <gasComponent name="Ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.024" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 1.25Pct 10-10E3Vcm" title="Xenon-TMA Mixture (1.25Pct TMA)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.9875" />
+    <gasComponent name="n(ch3)3" fraction="0.0125" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-CO2 1Pct 10-10E3Vcm" title="Xenon-CO2 Mixture (1Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.12" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="co2" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Iso 2Pct 10-10E3Vcm" title="Xenon-Iso Mixture (2Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.98" />
+    <gasComponent name="iC4H10" fraction="0.02" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 3.2Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-3.2Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.638" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.032" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 10Pct-Iso 3Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (10Pct Ne-3Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.87" />
+    <gasComponent name="ne" fraction="0.1" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 10Pct-Iso 2.1Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (10Pct Ne-2.1Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.879" />
+    <gasComponent name="ne" fraction="0.1" />
+    <gasComponent name="iC4H10" fraction="0.021" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Iso 2.32Pct 10-10E3Vcm" title="Xenon-Iso Mixture (2.32Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.9768" />
+    <gasComponent name="iC4H10" fraction="0.0232" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 2.3Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-2.3Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.647" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.023" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Iso 1.5Pct 10-10E3Vcm" title="Xenon-Iso Mixture (1.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.985" />
+    <gasComponent name="iC4H10" fraction="0.015" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 2.4Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-2.4Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.476" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.024" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 3Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-3Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.47" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 0.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-0.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.495" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.005" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 4.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-4.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.455" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.045" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 3.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-3.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.465" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.035" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 4Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-4Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.63" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.04" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 4.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-4.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.625" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.045" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.45" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.62" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 1.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-1.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.485" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.015" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 1Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-1Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.49" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 2.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-2.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.475" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.025" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 2Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-2Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.48" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.02" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 50Pct-Iso 4Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (50Pct Ne-4Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.46" />
+    <gasComponent name="ne" fraction="0.5" />
+    <gasComponent name="iC4H10" fraction="0.04" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 3.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-3.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.635" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.035" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 3Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-3Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.64" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 2.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-2.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.645" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.025" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 0.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-0.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.665" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.005" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 1.5Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-1.5Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.655" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.015" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 2Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-2Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.65" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.02" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Ne 33Pct-Iso 1Pct 10-10E3Vcm" title="Xenon-Ne-Iso Mixture (33Pct Ne-1Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.66" />
+    <gasComponent name="ne" fraction="0.33" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-CO2 2Pct 10-10E3Vcm" title="Xenon-CO2 Mixture (2Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.24" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.98" />
+    <gasComponent name="co2" fraction="0.02" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-CO2 0.5Pct 10-10E3Vcm" title="Xenon-CO2 Mixture (0.5Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.06" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.995" />
+    <gasComponent name="co2" fraction="0.005" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Iso 2.32Pct 10-10E3Vcm" title="Xenon-Iso Mixture (2.32Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.9768" />
+    <gasComponent name="iC4H10" fraction="0.0232" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Argon-Iso 1Pct 10-10E3Vcm" title="Argon-Iso Mixture (1Pct Iso)" >
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-CO2 3Pct 10-10E3Vcm" title="Xenon-CO2 Mixture (3Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.36" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.97" />
+    <gasComponent name="co2" fraction="0.03" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-CO2 5Pct 10-10E3Vcm" title="Xenon-CO2 Mixture (5Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.6" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.95" />
+    <gasComponent name="co2" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 0.5Pct 10-10E3Vcm" title="Xenon-Methane Mixture (0.5Pct CH4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.04" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.995" />
+    <gasComponent name="ch4" fraction="0.005" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 2Pct 10-10E3Vcm" title="Xenon-Methane Mixture (2Pct CH4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.08" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.98" />
+    <gasComponent name="ch4" fraction="0.02" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 3Pct 10-10E3Vcm" title="Xenon-Methane Mixture (3Pct CH4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.16" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.97" />
+    <gasComponent name="ch4" fraction="0.03" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 1Pct 10-10E3Vcm" title="Xenon-Methane Mixture (1Pct CH4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.04" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="ch4" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 5Pct 10-10E3Vcm" title="Xenon-Methane Mixture (5Pct CH4)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.4" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.95" />
+    <gasComponent name="ch4" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : tfg204 ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Argon-Iso 2.3Pct 10-10E3Vcm" title="Argon-Iso Mixture (2.3Pct Iso)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="ar" fraction="0.977" />
+    <gasComponent name="iC4H10" fraction="0.023" />
+</TRestDetectorGas>
+
+
+//------- User : andriigw ---- REST version : 2.2.18 ---------------------------
+<TRestDetectorGas name="Xenon-TMA 2.5Pct 10-10E3Vcm" title="Xenon-TMA Mixture (0.95Pct TMA)">
+    <parameter name="pressure" value="10" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.975" />
+    <gasComponent name="n(ch3)3" fraction="0.025" />
+    <searchPath value="/home/andriigw/Documents/Soft/REST_v2/install/data/definitions/" />
+    <searchPath value="./" />
+    <parameter name="gasDataPath" value="." />
+</TRestDetectorGas>
+
+
+//------- User : test ---- REST version : 2.2.18 ---------------------------
+<TRestDetectorGas name="dummyGas" title="Dummy gas">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="3" />
+    <eField Emin="50" Emax="100" nodes="2" />
+    <gasComponent name="xe" fraction="0.001" />
+    <gasComponent name="n(ch3)3" fraction="0.99" />
+</TRestDetectorGas>
+
+
+//------- User : test ---- REST version : 2.2.19 ---------------------------
+<TRestDetectorGas name="dummyGas" title="Dummy gas">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="3" />
+    <eField Emin="50" Emax="100" nodes="2" />
+    <gasComponent name="xe" fraction="0.001" />
+    <gasComponent name="n(ch3)3" fraction="0.99" />
+</TRestDetectorGas>
+
+
+//------- User : test ---- REST version : 2.2.18 ---------------------------
+<TRestDetectorGas name="dummyGas" title="Dummy gas">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="3" />
+    <eField Emin="50" Emax="100" nodes="2" />
+    <gasComponent name="xe" fraction="0.001" />
+    <gasComponent name="n(ch3)3" fraction="0.99" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-CO2 7Pct 10-10E3Vcm" title="Xenon-CO2 Mixture (5Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="22.84" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.93" />
+    <gasComponent name="co2" fraction="0.07" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-CO2 30Pct 10-10E3Vcm" title="Xenon-CO2 Mixture (5Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="25.6" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.7" />
+    <gasComponent name="co2" fraction="0.3" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Argon-CO2 7Pct 10-10E3Vcm" title="Argon-CO2 Mixture (7Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="26.28" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="ar" fraction="0.93" />
+    <gasComponent name="co2" fraction="0.07" />
+</TRestDetectorGas>
+
+
+//------- User : eruizchl ---- REST version : 2.2.14 ---------------------------
+<TRestDetectorGas name="Xenon-CO2 10Pct 10-10E3Vcm" title="Xenon-CO2 Mixture (10Pct CO2)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="23.2" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.9" />
+    <gasComponent name="co2" fraction="0.1" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Helium-Isobutane 3Pct 0.1-10E3Vcm" title="Helium-Isobutane Mixture (3Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.939" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="he" fraction="0.97" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Helium-Isobutane 1Pct 0.1-10E3Vcm" title="Helium-Isobutane Mixture (1Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.913" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="he" fraction="0.99" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Helium-Isobutane 0.5Pct 0.1-10E3Vcm" title="Helium-Isobutane Mixture (0.5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9175" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="he" fraction="0.995" />
+    <gasComponent name="iC4H10" fraction="0.005" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Helium-Isobutane 5Pct 0.1-10E3Vcm" title="Helium-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.965" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="he" fraction="0.95" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Neon-Isobutane 1Pct 0.1-10E3Vcm" title="Neon-Isobutane Mixture (1Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.913" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="ne" fraction="0.99" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Neon-Isobutane 0.5Pct 0.1-10E3Vcm" title="Neon-Isobutane Mixture (0.5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9175" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="ne" fraction="0.995" />
+    <gasComponent name="iC4H10" fraction="0.005" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Neon-Isobutane 3Pct 0.1-10E3Vcm" title="Neon-Isobutane Mixture (3Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.939" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="ne" fraction="0.97" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Argon-Isobutane 0.5Pct 0.1-10E3Vcm" title="Argon-Isobutane Mixture (0.5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9175" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="ar" fraction="0.995" />
+    <gasComponent name="iC4H10" fraction="0.005" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Neon-Isobutane 5Pct 0.1-10E3Vcm" title="Neon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.965" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="ne" fraction="0.95" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Argon-Isobutane 1Pct 0.1-10E3Vcm" title="Argon-Isobutane Mixture (1Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.913" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="ar" fraction="0.99" />
+    <gasComponent name="iC4H10" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Argon-Isobutane 3Pct 0.1-10E3Vcm" title="Argon-Isobutane Mixture (3Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.939" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="ar" fraction="0.97" />
+    <gasComponent name="iC4H10" fraction="0.03" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Argon-Isobutane 5Pct 0.1-10E3Vcm" title="Argon-Isobutane Mixture (5Pct Isobutane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.965" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="ar" fraction="0.95" />
+    <gasComponent name="iC4H10" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 5Pct 0.1-10E3Vcm" title="Xenon-Methane Mixture (5Pct Methane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="40" />
+    <gasComponent name="xe" fraction="0.95" />
+    <gasComponent name="CH4" fraction="0.05" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 2Pct 0.1-10E3Vcm" title="Xenon-Methane Mixture (2Pct Methane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="40" />
+    <gasComponent name="xe" fraction="0.98" />
+    <gasComponent name="CH4" fraction="0.02" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 0.5Pct 0.1-10E3Vcm" title="Xenon-Methane Mixture (0.5Pct Methane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="40" />
+    <gasComponent name="xe" fraction="0.995" />
+    <gasComponent name="CH4" fraction="0.005" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 1Pct 0.1-10E3Vcm" title="Xenon-Methane Mixture (1Pct Methane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="40" />
+    <gasComponent name="xe" fraction="0.99" />
+    <gasComponent name="CH4" fraction="0.01" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Xenon-Methane 0.1Pct 0.1-10E3Vcm" title="Xenon-Methane Mixture (0.1Pct Methane)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="40" />
+    <gasComponent name="xe" fraction="0.999" />
+    <gasComponent name="CH4" fraction="0.001" />
+</TRestDetectorGas>
+
+
+//------- User : jgalan ---- REST version : 2.3.4 ---------------------------
+<TRestDetectorGas name="Xenon 0.1-10E3Vcm" title="Xenon">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="800" />
+    <parameter name="W_value" value="21.9" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="40" />
+    <gasComponent name="xe" fraction="1" />
+</TRestDetectorGas>
+
+
+//------- User : cristina ---- REST version : 2.3.8 ---------------------------
+<TRestGas name="Xenon-Neon 48.85Pct-Iso 2.3Pct 10-10E3Vcm" title="Xenon-Neon Mixture (48.85Pct Neon)">
+    <parameter name="pressure" value="0.5" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="29.42" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="10" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.4885" />
+    <gasComponent name="Ne" fraction="0.4885" />
+    <gasComponent name="iC4H10" fraction="0.023" />
+</TRestGas>
+
+
+//------- User : cristina ---- REST version : 2.3.8 ---------------------------
+<TRestGas name="Xenon-Neon 48.85Pct-Iso 2.3Pct 0.1-10E3Vcm" title="Xenon-Neon Mixture (48.85Pct Neon)">
+    <parameter name="pressure" value="1" />
+    <parameter name="temperature" value="293.15" />
+    <parameter name="maxElectronEnergy" value="400" />
+    <parameter name="W_value" value="29.42" />
+    <parameter name="nCollisions" value="10" />
+    <eField Emin="0.1" Emax="1000" nodes="20" />
+    <gasComponent name="xe" fraction="0.4885" />
+    <gasComponent name="Ne" fraction="0.4885" />
+    <gasComponent name="iC4H10" fraction="0.023" />
+</TRestGas>
+
+</gases>

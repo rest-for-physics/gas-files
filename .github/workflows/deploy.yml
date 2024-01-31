@@ -25,6 +25,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      - name: Select files to serve
+        run: |
+          mv gases.rml files/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
